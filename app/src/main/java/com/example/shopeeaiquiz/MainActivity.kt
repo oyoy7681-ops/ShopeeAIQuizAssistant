@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.content.Intent
 import android.net.Uri
 import android.widget.*
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     private lateinit var resultText: TextView
 
